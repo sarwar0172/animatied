@@ -12,7 +12,9 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }
+
 
 /*=========
  section one
@@ -106,7 +108,7 @@ svg .text-AECOM_EarthGreen{
 .mountain{ 
 
 width: 100%;
-min-height: 100px;
+/* min-height:20rem; */
 position: absolute;
 top:18rem;
 
@@ -219,34 +221,34 @@ animation-fill-mode: forwards;
 /* ================responsive======================= */
 
 
-@media only screen and (max-width: 810px){
+@media only screen and (max-width: 1100px){
        
 /* ==section one==*/
 
 .mountain{ 
-  top:25rem;
+  top:22rem;
 }
 
 
 }
 
 
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 800px){
+       
+/* ==section one==*/
+
+.mountain{ 
+  top: 24rem;
+}
+
+
+}
+@media only screen and (max-width: 520px){
        
 /* ==section one==*/
 
 .mountain{ 
   top: 27rem;
-}
-
-
-}
-@media only screen and (max-width: 400px){
-       
-/* ==section one==*/
-
-.mountain{ 
-  top: 30rem;
 }
 
 
